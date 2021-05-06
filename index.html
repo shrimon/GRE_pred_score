@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRE Predictor</title>
+</head>
+<body>
+    <div class="card">
+        <h1 style="text-align: center;font-size: 30px;color: white;font-family: sans-serif;">GRE Predictor</h1>
+        <input type="text" id="math" placeholder=""><br><br>
+        <input type="text" id="physics" placeholder=""><br><br>
+        <input type="text" id="computer" placeholder=""><br><br>
+        <input type="text" id="programming" placeholder=""><br><br>
+        <input type="text" id="chemistry" placeholder=""><br><br>
+        <button onclick="publishResult()">View Result</button>
+    </div>
+    <div class="result">
+        <span id="sum"></span><br><br>
+        <span id="percentage"></span><br><br>
+        <span id="grade"></span><br><br>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
